@@ -73,7 +73,7 @@
 #define EFI_YELLOW 0x0E
 #define EFI_WHITE 0x0F
 
-//#define EFI_TEXT_ATTR(Foreground,Background)((Foreground) | ((Background) << 4))
+#define EFI_TEXT_ATTR(Foreground,Background) ((Foreground) | ((Background) << 4))
 
 #define EFI_BACKGROUND_BLACK 0x00
 #define EFI_BACKGROUND_BLUE 0x10
